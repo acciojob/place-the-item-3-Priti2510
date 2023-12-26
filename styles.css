@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.holder > * {
+    flex: 1 0 16%;
+    margin: 2%;
+}
